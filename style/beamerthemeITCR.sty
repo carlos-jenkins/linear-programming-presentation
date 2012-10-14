@@ -1,49 +1,46 @@
 % Created 2010 by Sarah Merz <smerz@pacific.edu>
+% Adapted 2012 by Carlos Jenkins <carlos@jenkins.co.cr>
 %
-% This file may be distributed and/or modified
+% This file may be distributed and/or modified un the licenses:
 %
-% 1. under the LaTeX Project Public License and/or
-% 2. under the GNU Public License.
+%  1. LaTeX Project Public License and/or
+%  2. GNU General Public License.
 %
-% See the file doc/licenses/LICENSE for more details.
-%
-%place this file in the same folder with beamerthemeCopenhagen.sty for example
 
-
-
-%\orangebox{text1}{text2} creates a theorem-like box, pacific orange on top containing text1 and pacificcream on bottom containing text2
-%similarly use \greenbox, \bluebox, \graybox
+% New commands:
+%  \orangebox{text1}{text2} creates a theorem-like box, pacific orange on
+%   top containing text1 and pacificcream on bottom containing text2.
+%  Similarly use \greenbox, \bluebox, \graybox
 
 \mode<presentation>
 
 \useoutertheme{split}
 \useinnertheme{rounded}
 
+% Removes navigation bar
+\beamertemplatenavigationsymbolsempty
 
-
-\beamertemplatenavigationsymbolsempty  %removes navigation bar
-
-\definecolor{pacificorange}{cmyk}{.15,.45,1,0} %approved Pacific colors 2010
-\definecolor{pacificgray}{cmyk}{0,.15,.35,.60}
-\definecolor{pacificlgray}{cmyk}{0,0,.2,.4}
-\definecolor{pacificcream}{cmyk}{.05,.05,.15,0}
-\definecolor{deepyellow}{cmyk}{0,.17,.80,0}
-\definecolor{lightblue}{cmyk}{.49,.01,0,0}
-\definecolor{lightbrown}{cmyk}{.09,.15,.34,0}
-\definecolor{deepviolet}{cmyk}{.79,1,0,.15}
-\definecolor{deeporange}{cmyk}{0,.59,1,18}
-\definecolor{dustyred}{cmyk}{0,.7,.45,.4}
-\definecolor{grassgreen}{RGB}{92,135,39}
-\definecolor{pacificblue}{RGB}{59,110,143}
-\definecolor{pacificgreen}{cmyk}{.15,0,.45,.30}
-\definecolor{deepblue}{cmyk}{1,.57,0,2}
-\definecolor{turquoise}{cmyk}{.43,0,.24,0}
-
+% Approved Pacific colors 2010
+\definecolor{pacificorange}{cmyk}{0.15, 0.45, 1.00, 0.00}
+\definecolor{pacificgray  }{cmyk}{0.00, 0.15, 0.35, 0.60}
+\definecolor{pacificlgray }{cmyk}{0.00, 0.00, 0.20, 0.40}
+\definecolor{pacificcream }{cmyk}{0.05, 0.05, 0.15, 0.00}
+\definecolor{deepyellow   }{cmyk}{0.00, 0.17, 0.80, 0.00}
+\definecolor{lightblue    }{cmyk}{0.49, 0.01, 0.00, 0.00}
+\definecolor{lightbrown   }{cmyk}{0.09, 0.15, 0.34, 0.00}
+\definecolor{deepviolet   }{cmyk}{0.79, 1.00, 0.00, 0.15}
+\definecolor{deeporange   }{cmyk}{0.00, 0.59, 1.00, 18.0}
+\definecolor{dustyred     }{cmyk}{0.00, 0.70, 0.45, 0.40}
+\definecolor{pacificgreen }{cmyk}{0.15, 0.00, 0.45, 0.30}
+\definecolor{deepblue     }{cmyk}{1.00, 0.57, 0.00, 2.00}
+\definecolor{turquoise    }{cmyk}{0.43, 0.00, 0.24, 0.00}
+\definecolor{grassgreen   }{RGB}{92, 135,  39}
+\definecolor{pacificblue  }{RGB}{59, 110, 143}
 
 
 \usecolortheme{whale}
 \usecolortheme{orchid}
-\usecolortheme[named=pacificorange]{structure} %replaces the blue of Copenhagen with Pacific orange
+%\usecolortheme[named=pacificorange]{structure} %replaces the blue of Copenhagen with Pacific orange
 
 \setbeamerfont{block title}{size={}}
 
