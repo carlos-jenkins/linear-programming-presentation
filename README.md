@@ -3,6 +3,7 @@ About
 
 FIXME.
 
+![Linear Programming](https://raw.github.com/carlos-jenkins/linear-programming-presentation/master/media/screenshot1.png "Linear Programming")
 
 How to build
 ============
