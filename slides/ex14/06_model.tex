@@ -1,2 +1,20 @@
 \begin{frame}{Example 14 - Model}
+
+Minimize:
+\begin{align*}
+    Z =& 10\colorij{X}{1}{1} + 11\colorij{X}{1}{2} + 12\colorij{X}{2}{1} +
+          9\colorij{X}{2}{2} + 14\colorij{X}{3}{1} + 10\colorij{X}{3}{2}
+\end{align*}
+
+Subject to:
+\begin{align*}
+    20\colorij{X}{1}{1} + 22\colorij{X}{1}{2} &\le 12000 \\
+    24\colorij{X}{2}{1} + 18\colorij{X}{2}{2} &\le 12000 \\
+    28\colorij{X}{3}{1} + 30\colorij{X}{3}{2} &\le 12000 \\
+      \colorij{X}{1}{1} +   \colorij{X}{2}{1} + \colorij{X}{3}{1} &\ge 500 \\
+      \colorij{X}{1}{2} +   \colorij{X}{2}{2} + \colorij{X}{3}{2} &\ge 600 \\
+    \colorij{X}{1}{1}, \colorij{X}{1}{2}, \colorij{X}{2}{1},
+    \colorij{X}{2}{2}, \colorij{X}{3}{1}, \colorij{X}{3}{2} &\ge 0
+\end{align*}
+
 \end{frame}

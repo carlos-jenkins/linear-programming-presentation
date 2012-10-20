@@ -1,2 +1,21 @@
 \begin{frame}{Example 13 - Model}
+
+Maximize:
+\begin{align*}
+    Z &= -40\colora{O} + 40\colorb{HO} + 90\colorc{HOP} + 60\colord{F} + 130\colore{FP}
+\end{align*}
+
+Subject to:
+\begin{align*}
+    \colora{O} &\le 20000 \\
+    \colord{F} + \colore{FP} &= 0.5\colora{O} \\
+    \colorb{HO} + \colorc{HOP} &= 0.5\colora{O} \\
+  60\colore{FP} + 45\colorc{HOP} &\le 480 \\
+    \colora{O} &\ge 0 \\
+    \colorb{HO} &\ge 0 \\
+    \colorc{HOP} &\ge 0 \\
+    \colore{FP} &\ge 0 \\
+    \colord{F} &\ge 0
+\end{align*}
+
 \end{frame}
