@@ -1,2 +1,27 @@
 \begin{frame}{Example 12 - Model}
+
+Minimize:
+\small{
+\begin{align*}
+    Z =& 200\colorij{X}{1}{1} + 350\colorij{X}{1}{2} + 450\colorij{X}{1}{3} +
+         200\colorij{X}{2}{1} + 350\colorij{X}{2}{2} + 450\colorij{X}{2}{3} + \\
+       & 200\colorij{X}{3}{1} + 350\colorij{X}{3}{2} + 450\colorij{X}{3}{3} +
+         200\colorij{X}{4}{1} + 350\colorij{X}{4}{2} + 450\colorij{X}{4}{3} + \\
+       & 200\colorij{X}{5}{1} + 350\colorij{X}{5}{2} + 450\colorij{X}{5}{3} +
+         200\colorij{X}{6}{1} + 175\colorij{X}{6}{2} + 150\colorij{X}{6}{3}
+\end{align*}
+}
+
+Subject to:
+\small{
+\begin{align*}
+    \colorij{X}{1}{1} + \colorij{X}{1}{2} + \colorij{X}{1}{3} &= 9 \\
+    \colorij{X}{2}{1} + \colorij{X}{2}{2} + \colorij{X}{2}{3} + \colorij{X}{1}{2} + \colorij{X}{1}{3} &= 5 \\
+    \colorij{X}{3}{1} + \colorij{X}{3}{2} + \colorij{X}{3}{3} + \colorij{X}{2}{2} + \colorij{X}{2}{3} + \colorij{X}{1}{3} &= 7 \\
+    \colorij{X}{4}{1} + \colorij{X}{4}{2} + \colorij{X}{4}{3} + \colorij{X}{3}{2} + \colorij{X}{3}{3} + \colorij{X}{2}{3} &= 9 \\
+    \colorij{X}{5}{1} + \colorij{X}{5}{2} + \colorij{X}{5}{3} + \colorij{X}{4}{2} + \colorij{X}{4}{3} + \colorij{X}{3}{3} &= 10 \\
+    \colorij{X}{6}{1} + \colorij{X}{6}{2} + \colorij{X}{6}{3} + \colorij{X}{5}{2} + \colorij{X}{5}{3} + \colorij{X}{4}{3} &= 5
+\end{align*}
+}
+
 \end{frame}

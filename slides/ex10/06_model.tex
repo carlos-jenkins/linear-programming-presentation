@@ -1,2 +1,24 @@
 \begin{frame}{Example 10 - Model}
+
+Maximize:
+\begin{align*}
+    Z &= 3\colora{x_1} + 2 \colora{x_2} + 2 \colora{x_3} +
+         2\colora{x_4} + 15\colora{x_5} + 30\colora{x_6} -
+         4\colorb{d_1} - 3 \colorb{d_2} - 6 \colorc{m}
+\end{align*}
+
+Subject to:
+\begin{align*}
+    2\colorc{m}   - \colora{x_2} - \colora{x_5} -
+     \colora{x_6} - \colorb{d_1} - \colorb{d_2} &= 0 \\
+    4\colorc{m} - \colora{x_1} - \colora{x_4} &= 0 \\
+     \colorc{m} - \colora{x_3} &= 0 \\
+     \colora{x_1} &\le 1200 \\
+     \colora{x_2} &\le 300 \\
+     \colora{x_5} &\le 1000 \\
+     \colora{x_6} &\le 800 \\
+     \colorb{d_1}, \colorb{d_2} &\ge 0 \\
+     \colorc{m} &\ge 3000
+\end{align*}
+
 \end{frame}
