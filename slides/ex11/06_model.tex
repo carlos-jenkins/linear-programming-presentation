@@ -1,2 +1,26 @@
 \begin{frame}{Example 11 - Model}
+
+Minimize:
+\begin{align*}
+    Z &= 7\colora{C_1} + 7\colorc{P_1} + 11\colorb{Ce_1} + 11\colord{Pe_1} +
+         7\colora{C_2} + 7\colorc{P_2} + 11\colorb{Ce_2} + 11\colord{Pe_2}
+\end{align*}
+
+Subject to:
+\small{
+\begin{align*}
+    4\colora{C_1} + 4\colorc{P_1}  &\le 25 \\
+     \colora{C_1} +  \colorb{Ce_1} &= 9 \\
+     \colorc{P_1} +  \colord{Pe_1} &= 13 \\
+    2\colora{C_1} + 2\colorb{Ce_1} +
+    3\colorc{P_1} + 3\colord{Pe_1} &\le 90 \\
+    4\colora{C_2} + 4\colorc{P_2}  &\le 25 \\
+     \colora{C_2} +  \colorb{Ce_2} &= 12 \\
+     \colorc{P_2} +  \colord{Pe_2} &= 14 \\
+    2\colora{C_1} + 2\colorb{Ce_1} + 3\colorc{P_1} + 3\colord{Pe_1} +
+    2\colora{C_2} + 2\colorb{Ce_2} + 3\colorc{P_2} + 3\colord{Pe_2} &\le 150 \\
+    All \quad variables &\ge 0
+\end{align*}
+}
+
 \end{frame}
