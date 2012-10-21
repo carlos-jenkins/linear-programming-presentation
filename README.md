@@ -1,7 +1,10 @@
 About
 =====
 
-FIXME.
+In this presentation we layout several linear programming problems 
+(20 in total), we analize them and finally we solve them. We present for 
+each problem the objetive function, the restrictions, the full model and 
+the solution given by a linear problem solver Software.
 
 ![Linear Programming](https://raw.github.com/carlos-jenkins/linear-programming-presentation/master/media/screenshot1.png "Linear Programming")
 
