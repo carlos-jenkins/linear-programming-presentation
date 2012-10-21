@@ -1,2 +1,38 @@
 \begin{frame}{Example 20 - Restrictions}
+
+%FIXME: Explain.
+\begin{multicols}{2}
+\tiny{
+\begin{align*}
+    C1 &\le 10000 \\
+    C2 &\le 10000 \\
+    C1 + C2 &\le 15000 \\
+    %
+    NG + NJF - 0.6C1 - 0.4C2 &= 0 \\
+    %
+    X_{d1c} + X_{d1ho} - 0.3C1 - 0.2C2 &= 0 \\
+    X_{d2c} + X_{d2ho} - 0.1C1 - 0.4C2 &= 0 \\
+    X_{d1c} + X_{d2c} &\le 5000 \\
+    X_{k} &\ge 0
+\end{align*}
+}
+
+\vfill
+\columnbreak
+
+\tiny{
+\begin{align*}
+    X_{co1g} + X_{co1ho} - 0.8X_{d1c} - 0.7X_{d2c} &= 0 \\
+    X_{co1g} + X_{co1ho} - 0.3X_{d1c} - 0.2X_{d2c} &= 0 \\
+    %
+    9X_{co1g} + 6X_{co2g} + 8NG &\ge 8.5 \\
+    4X_{d1ho} + 5X_{d2ho} &\ge 4.5 \\
+    9X_{co1j} + 6X_{co2j} + 8NJF &\ge 7.0 \\
+    X_{co1g} + X_{co2g} + NG &\ge 3000 \\
+    X_{d1ho} + X_{d2ho} &\ge 3000 \\
+    X_{co1j} + X_{co2j} + NJF &\ge 3000
+\end{align*}
+}
+\end{multicols}
+
 \end{frame}

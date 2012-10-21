@@ -1,2 +1,31 @@
-\begin{frame}{Example 14 - Restrictions}
+\begin{frame}{Example 14 - Restrictions (1)}
+
+In the restrictions every month Steelco must manufacture at least 500 tons of
+steel 1 and 600 of 2, which states that:
+$\colorij{X}{1}{1} + \colorij{X}{2}{1} + \colorij{X}{3}{1} \ge 500$ and
+$\colorij{X}{1}{2} + \colorij{X}{2}{2} + \colorij{X}{3}{2} \ge 600$.
+Also there is a restriction of baking time available. The oven of each mill is
+available for 200 hours that in minutes would be: $200 * 60 = 12000$ minutes
+per mill; and according to the data from the board about duration of steel
+baking on each mill would be that in the mill 1 the steel 1 needs 20 minutes and
+the steel 2, 22 minutes; in the mill 2 the steel 1 needs 24 minutes and the
+steel 2 needs 18 minute; finally in the mill 3 the steel 1 needs 28 minutes and
+the steel 2 30 minutes.
+
+\end{frame}
+
+
+\begin{frame}{Example 14 - Restrictions (2)}
+
+The last statements about time can be divided in 3 restrictions (One per mill)
+as follows:
+\begin{align*}
+    20\colorij{X}{1}{1} + 22\colorij{X}{1}{2} &\le 12000 \\
+    24\colorij{X}{2}{1} + 18\colorij{X}{2}{2} &\le 12000 \\
+    28\colorij{X}{3}{1} + 30\colorij{X}{3}{2} &\le 12000 \\
+      \colorij{X}{1}{1} +   \colorij{X}{2}{1} + \colorij{X}{3}{1} &\ge 500
+\end{align*}
+Last there is the trivial restriction that all variables must be higher or equal
+to 0 for it can't be negative steel.
+
 \end{frame}
